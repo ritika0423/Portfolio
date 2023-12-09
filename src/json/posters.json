@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "name": "posters",
+        "desc": "Square bamboo is a type of bamboo with culms that are flat on opposite sides, forming a rounded square. The thick-walled culms give the plant its name. The bamboo's dark green foliage is arranged in tiers, creating a waterfall effect",
+        "imagelink": "./images/bamboo.jpeg",
+        "pdflink": "./pdf/bamboo.pdf"
+    },
+    {
+        "id": "2",
+        "name": "bamboo",
+        "desc": "Square bamboo is a type of bamboo with culms that are flat on opposite sides, forming a rounded square. The thick-walled culms give the plant its name. The bamboo's dark green foliage is arranged in tiers, creating a waterfall effect",
+        "imagelink": "./images/bamboo.jpeg",
+        "pdflink": "./pdf/bamboo.pdf"
+    },
+    {
+        "id": "3",
+        "name": "bamboo",
+        "desc": "Square bamboo is a type of bamboo with culms that are flat on opposite sides, forming a rounded square. The thick-walled culms give the plant its name. The bamboo's dark green foliage is arranged in tiers, creating a waterfall effect",
+        "imagelink": "./images/bamboo.jpeg",
+        "pdflink": "./pdf/bamboo.pdf"
+    },
+    {
+        "id": "4",
+        "name": "bamboo",
+        "desc": "Square bamboo is a type of bamboo with culms that are flat on opposite sides, forming a rounded square. The thick-walled culms give the plant its name. The bamboo's dark green foliage is arranged in tiers, creating a waterfall effect",
+        "imagelink": "./images/bamboo.jpeg",
+        "pdflink": "./pdf/bamboo.pdf"
+    },
+    {
+        "id": "5",
+        "name": "bamboo",
+        "desc": "Square bamboo is a type of bamboo with culms that are flat on opposite sides, forming a rounded square. The thick-walled culms give the plant its name. The bamboo's dark green foliage is arranged in tiers, creating a waterfall effect",
+        "imagelink": "./images/bamboo.jpeg",
+        "pdflink": "./pdf/bamboo.pdf"
+    }
+]

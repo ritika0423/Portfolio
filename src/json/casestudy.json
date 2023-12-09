@@ -1,0 +1,9 @@
+[
+    {
+        "id": "1",
+        "name": "DEATH STRANDING",
+        "desc": "Death Stranding, a groundbreaking creation by visionary game designer Hideo Kojima, transports players into a hauntingly beautiful and enigmatic world.",
+        "imagelink": "./images/deathstranding.png",
+        "pdflink": "./pdf/deathStranding.pdf"
+    }
+]

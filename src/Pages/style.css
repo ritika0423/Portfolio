@@ -1,0 +1,179 @@
+.App {
+  text-align: center;
+}
+
+:root {
+  --primary-color: #000000;
+  --secondary-color: #FFFFFF;
+  --background-color: #202020;
+  --footer-color: #000000;
+  --always-light: #FFFFFF;
+  --always-dark: #000000;
+}
+
+.light-theme {
+  --primary-color: #FFFFFF;
+  --secondary-color: #1E1E1E;
+  --background-color: #FBFBFB;
+  --footer-color: #000000;
+  --always-light: #FFFFFF;
+  --always-dark: #000000;
+}
+
+
+.hollow-bold {
+  font-family: "MyHollow";
+
+}
+
+/* slider starts here */
+.switchx {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 1.9em;
+}
+
+.switchx input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.sliderx {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #303136;
+  transition: .4s;
+  border-radius: 25px;
+
+}
+
+.sliderx:before {
+  position: absolute;
+  content: "";
+  height: 1.4em;
+  width: 1.4em;
+  border-radius: 20px;
+  left: 0.3em;
+  bottom: 0.3em;
+  /* background: linear-gradient(40deg, #ff0080, #ff8c00 70%); */
+  box-shadow: inset 3px -2px 5px -2px #8983f7, inset 10px -5px 0 0 #a3dafb;
+  transition: .4s;
+}
+
+.switchx input:checked+.sliderx {
+  background-color: rgb(221, 218, 218);
+}
+
+.switchx input:checked+.sliderx::before {
+  transform: translateX(1.5em);
+  box-shadow: none;
+  background: linear-gradient(40deg, #ff0080, #ff8c00 70%);
+}
+
+/* slider ends here */
+
+body {
+  background-color: var(--background-color);
+}
+
+
+.thin {
+  font-family: "MyThin";
+}
+
+.navigation {
+  height: 14vh;
+  position: sticky;
+  top: 0;
+}
+
+.horizontal-gutter {
+  height: 9vh;
+}
+
+.name {
+  color: var(--secondary-color);
+  font-family: "MyFont";
+  font-size: max(1.3cqi, 1.3em);
+  letter-spacing: 3px;
+  display: flex;
+}
+
+.head-slide {
+  margin: 0 5vw;
+  height: 10hv;
+  display: flex;
+  justify-content: left;
+}
+
+.main-slide {
+  margin-left: 5vw;
+  display: flex;
+  justify-content: left;
+  flex-flow: wrap;
+  align-items: center;
+  height: fit-content;
+  min-height: 74vh;
+  display: flex;
+}
+
+.cardx {
+  outline: 0;
+  display: flex;
+  justify-content: center;
+  background-color: var(--background-color);
+  text-align: left;
+  margin: 10px;
+  width: 400px;
+  height: 500px;
+}
+
+.internal-card{
+  width: fit-content;
+  display: inline-block;
+}
+
+.card-image {
+  margin: 10px;
+  width: 60%;
+  display: inline-block;
+  align-self: center;
+}
+
+.card-title {
+  color: #FE0064;
+}
+
+.card-sub-title{
+  width: 70%;
+  color: var(--secondary-color);
+}
+
+.cs-cardx{
+  display: flex;
+  justify-content: center;
+}
+
+.cs-image{
+  width: 90%;
+  object-fit: cover;
+}
+
+.cs-title{
+  display: inline-block;
+}
+
+.ps-image{
+  width: 90%;
+  object-fit: cover;
+}
+.ps-card{
+  height: fit-content;
+}

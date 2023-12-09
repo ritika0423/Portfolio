@@ -1,0 +1,16 @@
+[
+    {
+        "id": "1",
+        "name": "Plypicker / UI/UX Intern",
+        "desc": "MAR 2022 - DEC 2022, PUNE -> Used wireframes, mock-ups and prototypes to establish user interface design and architecture.-> Drove UI requirements through to implementation, complete with accurate sizing estimates and task breakdowns. Worked closely with UX and product teams to define visual and functional requirements. -> Collaborated with teammates to deliver valuable features meeting business and customer needs.-> Conducted live user testing of components and functionality to evaluate effectiveness of designs and enhancements.",
+        "imagelink": "",
+        "pdflink": "./pdf/bamboo.pdf"
+    },
+    {
+        "id": "2",
+        "name": "Magnifura Technologies / UI/UX Intern",
+        "desc": "DEC 2022 - DEC 2022, CHENNAI Verified program logic using testing and debugging best practices. Worked closely with UX and product teams to define visual and functional requirements. Designed UIs within frontend web frameworks, exploiting associated templates and tools to shorten development times. Conducted live user testing of components and functionality to evaluate effectiveness of designs and enhancements",
+        "imagelink": "",
+        "pdflink": ""
+    }
+]

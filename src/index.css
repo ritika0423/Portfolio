@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("./font/Gobold_Extra1.woff") format("woff");
+}
+
+@font-face {
+  font-family: "MyHollow";
+  src: url("./font/Gobold_Hollow_Bold.ttf");
+
+}
+
+@font-face {
+  font-family: "MyThin";
+  src: url("./font/Gobold_Light.ttf");
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+body {
+  margin: 0;
+  font-family: 'MyFont', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: 'MyFont', sans-serif;
+}
+
+/* custom scrollbar starts here */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FE0064;
+  border-radius: 10px;
+}
+
+/* custom scrollbar ends*/
