@@ -341,6 +341,10 @@ body{
     display: flex;
     justify-content: space-between;
   }
+  .profile-image {
+    min-width: 200px;
+    width: 45%;
+  }
   .footer{
     /* width: 100%; */
   }

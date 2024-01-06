@@ -177,3 +177,8 @@ body {
 .ps-card{
   height: fit-content;
 }
+
+.exp-justify{
+  display: flex;
+  justify-content: space-between;
+}
